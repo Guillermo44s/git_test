@@ -1,8 +1,9 @@
 .titulos {
     background-color: rgb(219, 121, 121);
-    width: 350px;
+    width: auto;
     height: 50px;
     position: relative;
+    top: 0;
     font-family: sans-serif;
     color: rgb(72, 63, 63);
 }
@@ -25,10 +26,41 @@
     position: relative;
 }
 
-.bandeja {
+#bandeja1 {
     background-color: beige;
     width: 500px;
     height: 1000px;
+    padding: 10px;
+    margin: -10px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+
+
+}
+
+#bandeja2 {
+    background-color: beige;
+    width: 500px;
+    height: 1000px;
+    padding: 10px;
+    margin: 0px;
+    position: absolute;
+    left: 520px;
+    top: 0px;
+
+}
+
+#bandeja3 {
+    background-color: beige;
+    width: 500px;
+    height: 1000px;
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+    left: 1080px;
+    top: 0px;
+
 }
 
 #pesimismo {
